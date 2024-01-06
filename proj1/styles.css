@@ -27,3 +27,12 @@ p {
 .accent-color {
     color: yellow;
 }
+
+a:link,
+a:visited {
+    color: #FFE600;
+}
+
+a:focus {
+    color: aquamarine;
+}
