@@ -19,20 +19,15 @@ p {
     font-size: 18px;
 }
 
-.links {
-    margin-top: 45px;
-    margin-bottom: 0px;
+
+.button {
+    background-color: #FFE600;
+    padding: 20px;
+    color: #000;
+    display: inline-block;
+    margin-right: 25px;
 }
 
 .accent-color {
     color: yellow;
-}
-
-a:link,
-a:visited {
-    color: #FFE600;
-}
-
-a:focus {
-    color: aquamarine;
 }
