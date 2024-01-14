@@ -1,15 +1,19 @@
 body {
     font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
 }
 
 h1 {
     font-size: 3rem;
     color: #312614;
+    text-align: center;
 }
 
-span {
+h1 span {
     color: #B7832F;
 }
+
 
 h2 {
     font-size: 1.5rem;
@@ -17,5 +21,32 @@ h2 {
 }
 
 p {
-    color: #707070;
+    margin-top: 0;
+}
+
+
+
+/* Layout */
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+}
+
+.columns {
+    display: flex;
+    border: 2px solid orange;
+    margin: 1em 0;
+}
+
+.col-bg {
+    background-color: #312614;
+    color: #FFF;
+    padding: 1em;
 }
