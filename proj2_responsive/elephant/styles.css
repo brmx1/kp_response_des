@@ -2,6 +2,7 @@ body {
     font-size: 1.125rem;
     color: #707070;
     margin: 0;
+    background-color: pink;
 }
 
 h1 {
@@ -47,6 +48,14 @@ img {
     margin: 1em 0;
 }
 
+
+@media(max-width: 600px) {
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .col-bg {
     background-color: #312614;
     color: #FFF;
@@ -67,4 +76,11 @@ img {
 
 .col-3 {
     width: 70%;
+}
+
+@media(max-width: 600px) {
+    .col {
+        width: 100%;
+        padding: 0;
+    }
 }
