@@ -1,0 +1,36 @@
+header {
+    background-color: #f8f8f8;
+    border: 1px solid pink;
+}
+
+h1 {
+    color: #143774;
+    font-size: 3.375rem;
+}
+
+.title-text {
+    color: #1792d2;
+    font-size: 1rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+li {
+    color: #707070;
+    font-size: 1rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Layout */
+
+
+
+ul {
+    border: 2px solid orange;
+}
